@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+.c-form{
+    border: 1px solid;
+    border-radius: 10px;
+   background-color: rgb(158, 192, 221);
+   margin-top: 30px;
+}
+
+.be{
+    padding: 20px 0;
+}

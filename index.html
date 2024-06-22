@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    
+    <h1 class="text-center m-3 display-3">Registration Form</h1>
+    <hr >
+    <!-- form start -->
+    
+    <Div class="container-lg c-form">
+    <form class="row g-3 needs-validation be" novalidate>
+      <div class="col-md-6">
+        <label for="first-name" class="form-label">First name</label>
+        <input type="text" class="form-control" id="first-name" placeholder="First-Name"  required>
+        <div class="valid-feedback">
+         Please input your first name!
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" required>
+        <div class="valid-feedback">
+          Please input your last name!
+        </div>
+      </div>
+      <div class="col-md-12">
+        <label for="Email" class="form-label">Email</label>
+        <input type="text" class="form-control" id="Email" placeholder="Enter Your Email" required>
+        <div class="valid-feedback">
+          Please Enter your your email!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">State</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Ignor misspelling ;)</option>
+          <option>Dhaka</option>
+          <option>Rajshahi</option>
+          <option>Rongpur</option>
+          <option>Chottogram</option>
+          <option>Shylet</option>
+          <option>khulna</option>
+          <option>Mymonshing</option>
+          <option>Cumila</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-10">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+      <div class="col-1">
+        <button class="btn btn-danger" type="reset">reset</button>
+      </div>
+    </form>
+  </Div>
+
+<!-- script link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
